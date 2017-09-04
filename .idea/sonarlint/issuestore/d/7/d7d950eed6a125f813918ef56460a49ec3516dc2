@@ -1,0 +1,9 @@
+
+"squid:ClassVariableVisibilityCheck"UMake txtSubmit a static final constant or non-public and provide accessors if needed.(¦Øâå
+Isquid:S1172"/Remove this unused method parameter "strEmail".(¾ˆØ¹ıÿÿÿÿ
+Gsquid:S1135"2Complete the task associated to this TODO comment.(Â‚îó
+csquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(·«™ƒ
+€"squid:ClassVariableVisibilityCheck"TMake strEmail a static final constant or non-public and provide accessors if needed.(ËÕ´Î
+Gsquid:S1135"2Complete the task associated to this TODO comment.(ÄÃÕù
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ÅŸó•øÿÿÿÿ
+„"squid:ClassVariableVisibilityCheck"SMake edEmail a static final constant or non-public and provide accessors if needed.(™ªù½üÿÿÿÿ

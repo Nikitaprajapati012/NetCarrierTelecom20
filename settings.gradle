@@ -1,0 +1,3 @@
+include ':app', ':qrcodelogin', ':wsmodule', ':authentication'
+//include ':qrcodelogin'
+//project(':qrcodelogin').projectDir = new File(settingsDir, ':webservicemodule')

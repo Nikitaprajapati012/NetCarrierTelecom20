@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:id="@+id/txtv_disp_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="Scan your QR code from here or visit Polycab.com "
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <com.journeyapps.barcodescanner.CompoundBarcodeView
+        android:id="@+id/zxing_barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/reltivelayout_addcode_btn"
+        android:layout_below="@+id/txtv_disp_msg"
+        tools:zxing_scanner_layout="@layout/custom_barcode_scanner" />
+
+    <RelativeLayout
+        android:id="@+id/reltivelayout_addcode_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btn_addcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Enter QR code manually" />
+
+
+        <EditText
+            android:id="@+id/edtxt_addcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Enter Code"
+            android:inputType="text"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Authentication</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="invalidemail">Please Enter Valid Email Address</string>
+    <string name="emailempty">Please Enter Email Address</string>
+    <string name="pwdempty">Please Enter Password</string>
+    <string name="validpwd">Please Enter Valid Password</string>
+    <string name="loginsucess">Login SucessFull!!</string>
+    <string name="submit">Submit</string>
+
+
+</resources>

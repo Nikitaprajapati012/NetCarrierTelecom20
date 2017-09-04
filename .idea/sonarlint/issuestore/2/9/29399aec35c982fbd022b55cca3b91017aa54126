@@ -1,0 +1,8 @@
+
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Öòñ¯úÿÿÿÿ
+Vsquid:S1068"<Remove this unused "relativeLayoutAddCodeBtn" private field.(Ë©˜öøÿÿÿÿ
+rsquid:S1450"]Remove the "checkItemVisib" field and declare it as a local variable in the relevant methods.(´ŸøÆ
+Gsquid:S1068"2Remove this unused "checkItemVisib" private field.(´ŸøÆ
+†"squid:ClassVariableVisibilityCheck"ZMake menuItemSubmit a static final constant or non-public and provide accessors if needed.(Ññú
+squid:S1450"gRemove the "relativeLayoutAddCodeBtn" field and declare it as a local variable in the relevant methods.(Ë©˜öøÿÿÿÿ
+csquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(ÄÇ‚·
