@@ -22,7 +22,7 @@ import com.journeyapps.barcodescanner.CompoundBarcodeView;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class QRLoginActivity extends AppCompatActivity implements View.OnClickListener {
 
     public MenuItem menuItemSubmit;
     CompoundBarcodeView barcodeScannerView;

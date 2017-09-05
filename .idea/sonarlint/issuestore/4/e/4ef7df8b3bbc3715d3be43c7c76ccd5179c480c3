@@ -1,21 +1,20 @@
 
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜ÆÀ›ýÿÿÿÿ8âµÛáä+
 Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8âµÛáä+
 =squid:S1148"#Use a logger to log this exception.(¯Óí‘úÿÿÿÿ
+Dsquid:S1148"#Use a logger to log this exception.(¯Óí‘úÿÿÿÿ8âµÛáä+
 Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8âµÛáä+
 Dsquid:S1148"#Use a logger to log this exception.(¯Óí‘úÿÿÿÿ8âµÛáä+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜ÆÀ›ýÿÿÿÿ8âµÛáä+
-isquid:S1192"HDefine a constant instead of duplicating this literal "Code - " 3 times.(È¯ªüùÿÿÿÿ8âµÛáä+
-Ssquid:S2589"7Remove this expression which always evaluates to "true"(ËÄÒ‚8£¤Æãä+
 Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8âµÛáä+
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8âµÛáä+
-fsquid:S1192"JDefine a constant instead of duplicating this literal "result - " 5 times.(ìØ¤õ8âµÛáä+
-osquid:S1192"NDefine a constant instead of duplicating this literal "onResponse: " 10 times.(È¯ªüùÿÿÿÿ8âµÛáä+
-Isquid:S1444"-Make this "public static API_URL" field final(˜¿…Ç8‘ôìâä+
 nsquid:S3008"RRename this field "API_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¿…Ç8‘ôìâä+
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜ÆÀ›ýÿÿÿÿ
-"squid:ClassVariableVisibilityCheck"SMake API_URL a static final constant or non-public and provide accessors if needed.(˜¿…Ç
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜ÆÀ›ýÿÿÿÿ8âµÛáä+
 Dsquid:S1148"#Use a logger to log this exception.(¯Óí‘úÿÿÿÿ8âµÛáä+
-Dsquid:S1148"#Use a logger to log this exception.(¯Óí‘úÿÿÿÿ8âµÛáä+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜ÆÀ›ýÿÿÿÿ8ªÇãä+
 Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ªÇãä+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜ÆÀ›ýÿÿÿÿ8ªÇãä+
+osquid:S1192"NDefine a constant instead of duplicating this literal "onResponse: " 10 times.(È¯ªüùÿÿÿÿ8âµÛáä+
+"squid:ClassVariableVisibilityCheck"SMake API_URL a static final constant or non-public and provide accessors if needed.(˜¿…Ç
+Isquid:S1444"-Make this "public static API_URL" field final(˜¿…Ç8‘ôìâä+
+fsquid:S1192"JDefine a constant instead of duplicating this literal "result - " 5 times.(ìØ¤õ8âµÛáä+
+Ssquid:S2589"7Remove this expression which always evaluates to "true"(ËÄÒ‚8ö½Ëéä+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8âµÛáä+
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜ÆÀ›ýÿÿÿÿ
+isquid:S1192"HDefine a constant instead of duplicating this literal "Code - " 3 times.(È¯ªüùÿÿÿÿ8âµÛáä+

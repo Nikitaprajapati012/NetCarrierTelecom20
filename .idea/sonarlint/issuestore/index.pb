@@ -39,3 +39,9 @@ iauthentication/src/main/java/com/example/nikita/authentication/activity/present
 jauthentication/src/main/java/com/example/nikita/authentication/activity/iteractor/LoginInteractorImpl.java,d/a/da6005e35d710c32b337d9a675147af963924152
 “
 cauthentication/src/main/java/com/example/nikita/authentication/activity/activity/LoginActivity.java,0/0/0060b5532ba9f3a470187c6c84f2dd64a2953280
+F
+app/proguard-rules.pro,9/e/9e08934d811afe28fbc77aaa3c0d747b94348db9
+•
+eauthentication/src/main/java/com/example/nikita/authentication/activity/interfaces/AuthorizeUser.java,f/3/f3f23c0f995d64200f8dc82a8545e4b527a728ff
+[
++authentication/src/main/AndroidManifest.xml,d/6/d6295b0eb393f7bb665416d0c8807222f664e632

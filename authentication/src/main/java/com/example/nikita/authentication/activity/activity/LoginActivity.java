@@ -14,6 +14,7 @@ import android.widget.Toast;
 import com.ecosmob.wsmodule.WSResponse;
 import com.ecosmob.wsmodule.WebService;
 import com.example.nikita.authentication.R;
+import com.example.nikita.authentication.activity.interfaces.AuthorizeUser;
 import com.example.nikita.authentication.activity.presenter.LoginPresenter;
 import com.example.nikita.authentication.activity.presenter.LoginPresenterImpl;
 import com.example.nikita.authentication.activity.utils.Constants;
@@ -32,12 +33,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public String strEmail, strPassword;
     public LoginPresenter presenter;
     public ProgressBar progressBar;
+    public AuthorizeUser authorizeUserListner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_login);
+        getSupportActionBar().hide();
         findViewId();
         init();
     }
@@ -114,8 +117,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     String userId = "1";
                     Utils.WriteSharedPreference(LoginActivity.this, Constants.USER_EMAILID, email);
                     Utils.WriteSharedPreference(LoginActivity.this, Constants.USER_ID, userId);
+
                     onShowToast(this.getResources().getString(R.string.loginsucess));
-                    Intent intent = new Intent(LoginActivity.this, Class.forName("com.ecosmob.netcarriertelecom.MainActivity"));
+                    Intent intent = new Intent(LoginActivity.this,
+                            Class.forName("com.ecosmob.netcarriertelecom.MainActivity"));
                     startActivity(intent);
                 } else {
                     onShowToast("Data Not Found");
@@ -133,4 +138,5 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public void onFailure(String error) {
         onShowToast(error);
     }
+
 }

@@ -6,7 +6,7 @@ package com.example.nikita.authentication.activity.interfaces;
 
 public interface AuthorizeUser {
 
-    void GetUserInfomation();
+    void GetUserInfomation(String response, int code);
 
-    void SetUserInfomation();
+    void SetUserInfomation(String response, int code);
 }

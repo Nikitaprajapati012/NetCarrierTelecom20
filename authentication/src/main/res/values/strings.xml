@@ -2,13 +2,17 @@
     <string name="app_name">Authentication</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="login">Login</string>
+    <string name="login">Log In</string>
     <string name="invalidemail">Please Enter Valid Email Address</string>
     <string name="emailempty">Please Enter Email Address</string>
     <string name="pwdempty">Please Enter Password</string>
     <string name="validpwd">Please Enter Valid Password</string>
     <string name="loginsucess">Login SucessFull!!</string>
     <string name="submit">Submit</string>
+    <string name="username">Username</string>
+    <string name="forgotpwd">Forgot Password?</string>
+    <string name="retrivehere">Retrive it here</string>
+    <string name="loginwithqrcode">Log In with QR Code</string>
 
 
 </resources>
